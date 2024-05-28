@@ -37,8 +37,7 @@ class Hangman:
                 break
 
 
-game = Hangman(word_list)
 
-game.ask_for_input()
-      
+
+
        
