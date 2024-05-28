@@ -87,17 +87,19 @@ def play_game(word_list, num_lives=5):
     while True:
         if game.num_lives == 0:
             print("You lost!")
+            print(f"The word was {game.word}")
             break
         elif game.num_letters > 0:
             print()
-            print (f"Round: {round}. Lives remaining: {game.num_lives}")
-            print (f"Word to guess: {game.word_guessed}")
+            print (f"Round: {round} Lives remaining: {game.num_lives}")
+            print (f"Word to guess: {' '.join(game.word_guessed)}")
             print (f"Previous guesses : {game.list_of_guesses}")
             game.ask_for_input()
             round +=1
         else: 
-            print(f"{game.word_guessed}")
             print("Congratulations.  You won the game.")
+            print(f"The word was {' '.join(game.word_guessed)}")
+
             break
 
 if __name__ == "__main__":
