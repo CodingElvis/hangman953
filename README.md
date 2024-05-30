@@ -8,9 +8,9 @@ Install by cloning `https://github.com/CodingElvis/hangman953.git`
 ## Usage
 Run the file `basic_hangman.py` to launch a round of the game using the default wordlist and the default number of lives, 5.
 
-In each round of the game the word to be guessed is displayed, with any letters already correctly guessed shown.  The player guesses a further letter, and if correct the letter is "filled in" to the word.  If incorrect, the player loses one of their remaining lives. Rounds continue iteratively until either all letters in the word have been successfully guessed (player wins) or no lives remin (player loses).
+In each round of the game the word to be guessed is displayed, with any letters already correctly guessed shown.  The player guesses a further letter, and if correct the letter is "filled in" to the word.  If incorrect, the player loses one of their remaining lives. Rounds continue iteratively until either all letters in the word have been successfully guessed (player wins) or no lives remain (player loses).
 
-ALternative versions of the game could be played using different lists of words, or numbers of lives.  Call the `play_game()` function in `basic_hangman.py` passing a wordlist as first argument (required) and number of lives as second argument (default 5).
+Alternative versions of the game could be played using different lists of words, or numbers of lives.  Call the `play_game()` function in `basic_hangman.py` passing a wordlist as first argument (required) and number of lives as second argument (default 5).
 
 
 ## File Structure
